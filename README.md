@@ -147,12 +147,12 @@ CollegeFeeWebApp/
      - `standard.jar`
 
 4. **Deploy to Tomcat**:
-   - In **Servers** view, add `CollegeFeeWebApp` to Tomcat.
+   - In **Servers** view, add `College_Fee_Payment_System` to Tomcat.
    - Ensure port 8080 is free (or configure 8081 in `server.xml`).
    - Start Tomcat: **Servers** > **Start**.
 
 5. **Access the Application**:
-   - Open: `http://localhost:8080/CollegeFeeWebApp/`
+   - Open: `http://localhost:8080/College_Fee_Payment_System/`
 
 ## Usage
 - **Home Page**: `index.jsp` provides links to all modules.
