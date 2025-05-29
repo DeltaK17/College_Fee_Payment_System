@@ -165,6 +165,7 @@ CollegeFeeWebApp/
   - Select report type (Overdue, Non-Paid, Total Collection) and date range.
   - View results in `report_result.jsp`.
 
+<a id="screenshots"></a>
 ## 🖼️ Screenshots
 
 ### 🏠 Home Page
