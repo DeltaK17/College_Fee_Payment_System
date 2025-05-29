@@ -15,6 +15,7 @@ A web-based application to manage student fee payments, built with Java Servlets
 - [Project Structure](#project-structure)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Screenshots](#screenshots)
 - [Troubleshooting](#troubleshooting)
 - [Contributing](#contributing)
 - [License](#license)
@@ -160,7 +161,32 @@ CollegeFeeWebApp/
   - Select report type (Overdue, Non-Paid, Total Collection) and date range.
   - View results in `report_result.jsp`.
 
+## 🖼️ Screenshots
 
+### 🏠 Home Page
+<img src="screenshots/homepage.png" alt="Home Page" width="700"/>
+
+### ➕ Add Fee Payment
+<img src="screenshots/add_fee.png" alt="Add Fee Payment" width="700"/>
+
+### 🆕 Update Fee Payment
+<img src="screenshots/update_fee.png" alt="Update Fee Payment" width="700"/>
+
+### ❌ Delete Fee Payment
+<img src="screenshots/delete_fee.png" alt="Delete Fee Payment" width="700"/>
+
+### 📋 Display Fee Payments
+<img src="screenshots/display_fee.png" alt="Display Fee Payments" width="700"/>
+
+### 📊 Report Form
+<img src="screenshots/report_form.png" alt="Report Form" width="700"/>
+
+**Note**: Screenshots are placeholders. To add real screenshots:
+1. Create a `screenshots/` folder in the project root.
+2. Capture images using a tool (e.g., Windows Snipping Tool, macOS Screenshot).
+3. Save as PNG files (e.g., `homepage.png`, `add_fee.png`).
+4. Commit to Git: `git add screenshots/ && git commit -m "Add screenshots" && git push`.
+5. 
     ```
 
 ## Contributing
