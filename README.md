@@ -22,7 +22,7 @@ A web-based application to manage student fee payments, built with Java Servlets
 - [Installation](#installation)
 - [Usage](#usage)
 - [Screenshots](#screenshots)
-- [License](#license)
+
 
 ## Overview
 The **College Fee Payment System** streamlines the management of student fee payments for college administrators. It provides a user-friendly interface to record fee payments, update records, delete entries, and view payment histories. The system also generates reports to track overdue payments, identify non-paying students within a date range, and calculate total fee collections. Built using the MVC architecture, it ensures scalability and maintainability.
@@ -187,5 +187,4 @@ CollegeFeeWebApp/
 <img src="screenshots/report_form1.png" alt="Report Form" width="700"/>
 <img src="screenshots/report_form2.png" alt="All Payments" width="700"/>
 
-## License
-[MIT License](LICENSE.txt) - Free for educational use.
+
