@@ -156,7 +156,7 @@ CollegeFeeWebApp/
 
 ## Usage
 - **Home Page**: `index.jsp` provides links to all modules.
-- **Add Payment**: Navigate to `feepaymentadd.jsp`, enter details (e.g., StudentID=6, StudentName="Michael Lee", PaymentDate="2025-05-28", Amount=500.00, Status="Unpaid"), and submit.
+- **Add Payment**: Navigate to `feepaymentadd.jsp`, enter details (e.g., StudentID=1, StudentName="Kiran Kumar", PaymentDate="2025-05-27", Amount=50000.00, Status="Paid"), and submit.
 - **Update Payment**: Use `feepaymentupdate.jsp` to edit records by PaymentID.
 - **Delete Payment**: Enter PaymentID in `feepaymentdelete.jsp` to remove records.
 - **View Payments**: Access `/displayFeePayments` to see all records in `feepaymentdisplay.jsp`.
