@@ -50,7 +50,7 @@ The **College Fee Payment System** streamlines the management of student fee pay
   - JSTL 1.2 (`jstl.jar`, `standard.jar`)
 
 ## Database Schema
-The system uses a MySQL database named `college_fee_system` with one table:
+The system uses a MySQL database named `collegefeedb` with one table:
 
 ```sql
 CREATE TABLE FeePayments (
@@ -107,7 +107,7 @@ CollegeFeeWebApp/
 ### Steps
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/CollegeFeeWebApp.git
+   git clone https://github.com/DeltaK17/College_Fee_Payment_System.git
    cd CollegeFeeWebApp
    ```
 
@@ -115,7 +115,7 @@ CollegeFeeWebApp/
    - Start MySQL (e.g., via XAMPP).
    - Create the database:
      ```sql
-     CREATE DATABASE college_fee_system;
+     CREATE DATABASE collegefeedb;
      ```
    - Create the `FeePayments` table:
      ```sql
