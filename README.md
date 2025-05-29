@@ -22,8 +22,6 @@ A web-based application to manage student fee payments, built with Java Servlets
 - [Installation](#installation)
 - [Usage](#usage)
 - [Screenshots](#screenshots)
-- [Troubleshooting](#troubleshooting)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Overview
@@ -133,11 +131,11 @@ CollegeFeeWebApp/
    - Add sample data:
      ```sql
      INSERT INTO FeePayments (StudentID, StudentName, PaymentDate, Amount, Status) VALUES
-         (1, 'John Doe', '2025-01-15', 500.00, 'Paid'),
-         (2, 'Jane Smith', '2025-02-10', 750.00, 'Overdue'),
-         (3, 'Alice Johnson', '2025-03-20', 600.00, 'Paid'),
-         (4, 'Bob Wilson', '2025-04-05', 800.00, 'Unpaid'),
-         (5, 'Emma Brown', '2025-05-01', 450.00, 'Paid');
+         (1, 'Kiran Kumar', '2025-05-27', 50000.00, 'Paid'),
+         (2, 'Pavan Kumar', '2025-05-10', 750.00, 'Overdue'),
+         (3, 'Jeevan Kumar', '2025-05-20', 6000.00, 'Paid'),
+         (4, 'Rakshith', '2025-05-05', 8000.00, 'Unpaid'),
+         (5, 'Gagan', '2025-05-01', 45000.00, 'Paid');
      ```
 
 3. **Configure Eclipse**:
@@ -170,22 +168,23 @@ CollegeFeeWebApp/
 ## 🖼️ Screenshots
 
 ### 🏠 Home Page
-<img src="screenshots/homepage.gif" alt="Home Page" width="700"/>
+<img src="screenshots/homepage.png" alt="Home Page" width="700"/>
 
 ### ➕ Add Fee Payment
-<img src="screenshots/add_fee.gif" alt="Add Fee Payment" width="700"/>
+<img src="screenshots/add_fee.png" alt="Add Fee Payment" width="700"/>
 
 ### 🆕 Update Fee Payment
-<img src="screenshots/update_fee.gif" alt="Update Fee Payment" width="700"/>
+<img src="screenshots/update_fee.png" alt="Update Fee Payment" width="700"/>
 
 ### ❌ Delete Fee Payment
-<img src="screenshots/delete_fee.gif" alt="Delete Fee Payment" width="700"/>
+<img src="screenshots/delete_fee.png" alt="Delete Fee Payment" width="700"/>
 
 ### 📋 Display Fee Payments
-<img src="screenshots/display_fee.gif" alt="Display Fee Payments" width="700"/>
+<img src="screenshots/display_fee.png" alt="Display Fee Payments" width="700"/>
 
 ### 📊 Report Form
-<img src="screenshots/report_form.gif" alt="Report Form" width="700"/>
+<img src="screenshots/report_form1.png" alt="Report Form" width="700"/>
+<img src="screenshots/report_form2.png" alt="All Payments" width="700"/>
 
 ## License
 [MIT License](LICENSE.txt) - Free for educational use.
