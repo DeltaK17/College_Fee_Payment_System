@@ -108,7 +108,7 @@ CollegeFeeWebApp/
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/DeltaK17/College_Fee_Payment_System.git
-   cd CollegeFeeWebApp
+   cd College_Fee_Payment_System
    ```
 
 2. **Set Up the Database**:
