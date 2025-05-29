@@ -1,5 +1,11 @@
 # College Fee Payment System
 
+**Subject Name**: Advanced Java  
+**Subject Code**: BCS613D  
+**Name**: Kiran Kumar  
+**USN**: 4AL22CS078  
+**Sem/Section**: VI/B  
+
 ![Java](https://img.shields.io/badge/Java-17-blue)
 ![Tomcat](https://img.shields.io/badge/Tomcat-9.0.105-orange)
 ![MySQL](https://img.shields.io/badge/MySQL-8.0-blue)
@@ -164,37 +170,22 @@ CollegeFeeWebApp/
 ## 🖼️ Screenshots
 
 ### 🏠 Home Page
-<img src="screenshots/homepage.png" alt="Home Page" width="700"/>
+<img src="screenshots/homepage.gif" alt="Home Page" width="700"/>
 
 ### ➕ Add Fee Payment
-<img src="screenshots/add_fee.png" alt="Add Fee Payment" width="700"/>
+<img src="screenshots/add_fee.gif" alt="Add Fee Payment" width="700"/>
 
 ### 🆕 Update Fee Payment
-<img src="screenshots/update_fee.png" alt="Update Fee Payment" width="700"/>
+<img src="screenshots/update_fee.gif" alt="Update Fee Payment" width="700"/>
 
 ### ❌ Delete Fee Payment
-<img src="screenshots/delete_fee.png" alt="Delete Fee Payment" width="700"/>
+<img src="screenshots/delete_fee.gif" alt="Delete Fee Payment" width="700"/>
 
 ### 📋 Display Fee Payments
-<img src="screenshots/display_fee.png" alt="Display Fee Payments" width="700"/>
+<img src="screenshots/display_fee.gif" alt="Display Fee Payments" width="700"/>
 
 ### 📊 Report Form
-<img src="screenshots/report_form.png" alt="Report Form" width="700"/>
-
-**Note**: Screenshots are placeholders. To add real screenshots:
-1. Create a `screenshots/` folder in the project root.
-2. Capture images using a tool (e.g., Windows Snipping Tool, macOS Screenshot).
-3. Save as PNG files (e.g., `homepage.png`, `add_fee.png`).
-4. Commit to Git: `git add screenshots/ && git commit -m "Add screenshots" && git push`.
-5. 
-    ```
-
-## Contributing
-1. Fork the repository.
-2. Create a feature branch: `git checkout -b feature/your-feature`.
-3. Commit changes: `git commit -m "Add your feature"`.
-4. Push to branch: `git push origin feature/your-feature`.
-5. Open a Pull Request.
+<img src="screenshots/report_form.gif" alt="Report Form" width="700"/>
 
 ## License
 [MIT License](LICENSE.txt) - Free for educational use.
