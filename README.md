@@ -160,38 +160,7 @@ CollegeFeeWebApp/
   - Select report type (Overdue, Non-Paid, Total Collection) and date range.
   - View results in `report_result.jsp`.
 
-## Troubleshooting
-- **Tomcat 404 Error (e.g., `/CollegeFeeWebApplication/addFeePayment`)**:
-  - Verify context path: Ensure project name is `CollegeFeeWebApp`. If `CollegeFeeWebApplication`, update JSPs to use `${pageContext.request.contextPath}`.
-  - Check `web.xml` for correct servlet mappings.
-  - Confirm `AddFeePaymentServlet.class` in `WEB-INF/classes/com/servlet/`.
-  - Redeploy: **Servers** > **Add and Remove** > **Clean**.
-- **Tomcat Startup Failure**:
-  - Check port conflicts (8080): Change to 8081` in `<Tomcat_Home>/conf/server.xml`.
-  - Validate `web.xml` syntax.
-  - View logs: `<Tomcat_Home>/logs/catalina.out` or Eclipse **Console**.
-- **Database Connection Issues**:
-  - Ensure MySQL is running and `college_fee_system` exists.
-  - Verify `mysql-connector-j-9.3.0.jar` in `WEB-INF/lib`.
-  - Test connection:
-    ```java
-    import java.sql.*;
 
-    public class TestDBConnection {
-        public static void main(String[] args) {
-            String url = "jdbc:mysql://localhost:3306/college_fee_system?useSSL=false&serverTimezone=UTC";
-            String user = "root";
-            String password = "";
-            try {
-                Class.forName("com.mysql.cj.Driver");
-                Connection conn = DriverManager.getConnection(url, user, password);
-                System.out.println("Connection successful!");
-                conn.close();
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
-        }
-    }
     ```
 
 ## Contributing
